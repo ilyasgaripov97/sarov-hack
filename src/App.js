@@ -6,9 +6,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <div className={"side"}>
-            <Sidebar/>
+        <div className={"header"}>
+            ADMINKA
         </div>
+        <Sidebar/>
     </div>
   );
 }
