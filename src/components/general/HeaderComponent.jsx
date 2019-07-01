@@ -4,7 +4,8 @@ import {BrowserRouter} from "react-router-dom";
 import {Route} from "react-router-dom";
 import CRUD from "../CRUD/CRUD";
 import MAP from "../MAP/MAP";
-import Main from "../Main/Main";
+
+import CurrentGarbageQueries from "../garbage/CurrentGarbageQueries";
 
 class HeaderComponent extends React.Component {
     render() {
@@ -25,7 +26,7 @@ class HeaderComponent extends React.Component {
                     <Route path={'/MAP'} component={MAP}/>
                 </div>
                 <div>
-                    <Route exact path={'/'} component={Main}/>
+                    <Route exact path={'/'} component={CurrentGarbageQueries}/>
                 </div>
             </BrowserRouter>
         )
