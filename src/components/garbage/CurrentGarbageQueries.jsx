@@ -35,31 +35,30 @@ class CurrentGarbageQueries extends React.Component {
                 <div className="container">
                     {/* Labels for items*/}
                     <div className="number-item-label">
-
+                        <p><u>№</u></p>
                     </div>
                     <div className="photo-item-label">
-
+                        <p><u>Фото</u></p>
                     </div>
                     <div className="geoplace-item-label">
-
+                        <p><u>Местоположение</u></p>
                     </div>
                     <div className="comment-item-label">
-
+                        <p><u>Комментарий</u></p>
                     </div>
                     <div className="rate-item-label">
-
+                        <p><u>Важность</u></p>
                     </div>
                     <div className="date-item-label">
-
+                        <p><u>Дата</u></p>
                     </div>
 
                     {/*  Items */}
                     <div className="number-item">
-
+                        <p>1</p>
                     </div>
                     <div className="photo-item">
-
-                    </div>
+                        </div>
                     <div className="geoplace-item">
 
                     </div>
