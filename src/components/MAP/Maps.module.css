@@ -1,0 +1,10 @@
+.layer {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid;
+    margin: 0 auto 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
