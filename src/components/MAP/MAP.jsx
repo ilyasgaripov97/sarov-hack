@@ -54,9 +54,12 @@ class MAP extends React.Component {
                         </Map>
                     </YMaps>
             </div>
-            <h1>Низкий: {coordinates0.length}</h1><br />
-            <h1>Средний: {coordinates1.length}</h1><br />
-            <h1>Высокий: {coordinates2.length}</h1><br />
+            <p></p>
+            <div className={classes.map_garbage_importance_container}>
+                <h3>Низкий уровень загрязнения: {coordinates0.length}</h3><br />
+                <h3>Средний уровень загрязнения: {coordinates1.length}</h3><br />
+                <h3>Высокий уровень загрязнения: {coordinates2.length}</h3><br />
+            </div>
         </div>
         )
     }

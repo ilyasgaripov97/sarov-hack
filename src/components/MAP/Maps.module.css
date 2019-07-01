@@ -9,4 +9,12 @@ h1 {
     text-align: center;
 }
 
+.map_garbage_importance_container {
+    display: flex;
+    justify-content: center;
+}
 
+.map_garbage_importance_container h3 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
