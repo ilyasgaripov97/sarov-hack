@@ -45,7 +45,6 @@ class MAP extends React.Component {
 
         return(
         <div>
-            <h1>MAP</h1>
             <div className={classes.layer}>
                     <YMaps>
                         <Map defaultState={mapData} height="100%" width="100%">
@@ -55,6 +54,9 @@ class MAP extends React.Component {
                         </Map>
                     </YMaps>
             </div>
+            <h1>Низкий: {coordinates0.length}</h1><br />
+            <h1>Средний: {coordinates1.length}</h1><br />
+            <h1>Высокий: {coordinates2.length}</h1><br />
         </div>
         )
     }
