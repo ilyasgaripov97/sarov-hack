@@ -1,7 +1,10 @@
 import React from 'react';
 import Sidebar from "./components/Sidebar/Sidebar";
+
+
 //import logo from './logo.svg';
 import './App.css';
+import HeaderComponent from "./components/general/HeaderComponent";
 
 function App() {
   return (
@@ -9,6 +12,7 @@ function App() {
         <div className={"header"}>
             ADMINKA
         </div>
+        <HeaderComponent/>
         <Sidebar/>
     </div>
   );

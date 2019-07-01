@@ -1,0 +1,13 @@
+.header-component {
+    background-color: rgba(54, 84, 221, 0.82);
+}
+
+.header-component__nav {
+    padding: 10px 0 10px 0px;
+    margin: 0px 10px 15px 0px;
+}
+
+.header-component__nav_item {
+    padding: 0px 20px 0 20px;
+    color: white;
+}
