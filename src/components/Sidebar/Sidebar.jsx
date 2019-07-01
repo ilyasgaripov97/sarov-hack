@@ -1,22 +1,25 @@
 import React from 'react';
 import {Route} from "react-router-dom";
-import {BrowserRouter, Router} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 import CRUD from "../CRUD/CRUD";
 import MAP from "../MAP/MAP";
 import Main from "../Main/Main";
-
+import classes from './Sidebar.module.css'
 
 const Sidebar = () => {
     return (
         <BrowserRouter>
-            <div>
-                <div>
+
+                <div className={classes.sidebar}>
+                    <a>ADMIN</a>
+                </div>
+                <div className={classes.sidebar}>
                     <a href={"/"}>Main</a>
                 </div>
-                <div>
+                <div className={classes.sidebar}>
                     <a href={"/CRUD"}>CRUD</a>
                 </div>
-                <div>
+                <div className={classes.sidebar}>
                     <a href={"/MAP"}>MAP</a>
                 </div>
 
@@ -32,7 +35,7 @@ const Sidebar = () => {
                     <Route exact path={'/'} component={Main}/>
                 </div>
 
-            </div>
+
         </BrowserRouter>
     )
 }
