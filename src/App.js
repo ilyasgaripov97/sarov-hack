@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from "./components/Sidebar/Sidebar";
+
 
 
 //import logo from './logo.svg';
@@ -13,11 +13,10 @@ function App() {
 
     <div className="App">
         <div className={"header"}>
-            ADMINKA
         </div>
         <HeaderComponent/>
         <CurrentGarbageQueries/>
-        <Sidebar/>
+
     </div>
   );
 }

@@ -31,6 +31,8 @@ class CurrentGarbageQueries extends React.Component {
                     {/*<div className="date-box"></div>*/}
 
                 </header>
+
+
                 <div className="container">
                     {/* Labels for items*/}
                     <div className="number-item-label">
@@ -72,6 +74,8 @@ class CurrentGarbageQueries extends React.Component {
 
                     </div>
                 </div>
+
+
             </div>
         )
     }
