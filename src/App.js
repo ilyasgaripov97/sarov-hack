@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 //import logo from './logo.svg';
 import './App.css';
 import HeaderComponent from "./components/general/HeaderComponent";
+import CurrentGarbageQueries from "./components/garbage/CurrentGarbageQueries";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             ADMINKA
         </div>
         <HeaderComponent/>
+        <CurrentGarbageQueries/>
         <Sidebar/>
     </div>
   );
