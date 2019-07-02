@@ -41,13 +41,16 @@ class TestTable extends React.Component {
             );
         });*/
 
-        const template = Object.keys(this.state.arr).map(item => <div key={this.state.arr[item].id}><br />
-        <div>{this.state.arr[item].id}</div><br />
+        const template = Object.keys(this.state.arr).map(item => <div key={this.state.arr[item].id}>
+            <br/>
+        {this.state.arr[item].id}<br />
         {this.state.arr[item].img_path}<br />
-        {this.state.arr[item].geo_place}<br />
+        <div className="geoplace-item">{this.state.arr[item].geo_place}<br /></div>
         {this.state.arr[item].comment}<br />
         {this.state.arr[item].importance}<br />
-        {this.state.arr[item].date}</div>)
+        {this.state.arr[item].date}
+
+        </div>)
 
         return (
             <table><tbody>{ template }</tbody></table>
