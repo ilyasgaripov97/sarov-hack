@@ -6,6 +6,7 @@ import CRUD from "../CRUD/CRUD";
 import MAP from "../MAP/MAP";
 
 import CurrentGarbageQueries from "../garbage/CurrentGarbageQueries";
+import TestTable from "../TestTable/TestTable";
 
 class HeaderComponent extends React.Component {
     render() {
@@ -16,6 +17,7 @@ class HeaderComponent extends React.Component {
                         <a className="header-component__nav_item" href={"/"}>Текущие заявки</a>
                         <a className="header-component__nav_item" href={"/MAP"}>Карта свалок</a>
                         <a className="header-component__nav_item" href={"/CRUD"}>Рейтинг активистов(в разработке)</a>
+                        <a className="header-component__nav_item" href={"/TestTable"}>ССАНИНА</a>
                     </nav>
                 </div>
 
@@ -27,6 +29,9 @@ class HeaderComponent extends React.Component {
                 </div>
                 <div>
                     <Route exact path={'/'} component={CurrentGarbageQueries}/>
+                </div>
+                <div>
+                    <Route path={'/TestTable'} component={TestTable}/>
                 </div>
             </BrowserRouter>
         )

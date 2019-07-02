@@ -41,7 +41,18 @@ const optmark2 = {
 
 
 class MAP extends React.Component {
+
+    /*state = {
+        lat: 0
+    }*/
+
     render () {
+
+        /*console.log(this.state.lat);
+        navigator.geolocation.getCurrentPosition(function(position) {
+           let lat1 = position.coords.latitude;
+            let long1 = position.coords.longitude;
+        });*/
 
         return(
         <div>
