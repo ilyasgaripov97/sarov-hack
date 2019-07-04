@@ -13,10 +13,11 @@ class PhotoLoader extends React.Component {
 
                     <canvas id="myCanvas" width="320" height="180"></canvas>
 
-                    <form action="upload.http://u0755299.cp.regruhosting.ru/scripts/uploads/tryback/alpof/suda.php" method="post" encType="multipart/form-data">
-                        Select image to upload:
-                        <input type="file" name="fileToUpload" id="fileToUpload"></input>
-                        <input type="submit" value="Upload Image" name="submit"></input>
+                    <form className="form_container" action="http://u0755299.cp.regruhosting.ru/scripts/uploads/tryback/alpof/suda.php" enctype="multipart/form-data" method="post">
+                        <input type="file"
+                               id="garbage" name="garbage"
+                               accept="image/png, image/jpeg"></input>
+                        <input type="submit" value="Send"></input>
                     </form>
                 </div>
 
