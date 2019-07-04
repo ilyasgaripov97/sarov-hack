@@ -7,6 +7,8 @@ import MAP from "../MAP/MAP";
 
 import CurrentGarbageQueries from "../garbage/CurrentGarbageQueries";
 import TestTable from "../TestTable/TestTable";
+import Geo from '../Geo/Geo';
+import PhotoLoader from '../PhotoLoader/PhotoLoader';
 
 class HeaderComponent extends React.Component {
     render() {
@@ -18,6 +20,8 @@ class HeaderComponent extends React.Component {
                         <a className="header-component__nav_item" href={"/MAP"}>Карта свалок</a>
                         <a className="header-component__nav_item" href={"/CRUD"}>Рейтинг активистов(в разработке)</a>
                         <a className="header-component__nav_item" href={"/TestTable"}>ССАНИНА</a>
+                        <a className="header-component__nav_item" href={"/Geo"}>Фронт</a>
+                        <a className="header-component__nav_item" href={"/PhotoLoader"}>Загрузка фото</a>
                     </nav>
                 </div>
 
@@ -32,6 +36,12 @@ class HeaderComponent extends React.Component {
                 </div>
                 <div>
                     <Route path={'/TestTable'} component={TestTable}/>
+                </div>
+                <div>
+                    <Route path={'/Geo'} component={Geo}/>
+                </div>
+                <div>
+                    <Route path={'/PhotoLoader'} component={PhotoLoader}/>
                 </div>
             </BrowserRouter>
         )

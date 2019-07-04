@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    display: grid;
+    grid-row-gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.container__capture_image {
+    display: flex;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+}
+
+#myCanvas {
+    background-color: whitesmoke;
+}
+
+
+h1, h2 {
+    align-self: center;
+}
+
+.inner_container {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 1.3rem;
+}
